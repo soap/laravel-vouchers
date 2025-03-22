@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Soap\Vouchers\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class VouchersCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-vouchers';
 
     public $description = 'My command';
 
