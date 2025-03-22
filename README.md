@@ -5,8 +5,15 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/soap/laravel-vouchers/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/soap/laravel-vouchers/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/soap/laravel-vouchers.svg?style=flat-square)](https://packagist.org/packages/soap/laravel-vouchers)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+Flexible vouchers usage system for Laravel application. Any recommendations are welcome.
 
+## Features
+- Associate one voucher with one or more items
+- Flexible redeemer models: vouchers can be redeemed by any model. User, Admin, Guest models.
+- Flexible voucher models: voucher can be associated with any model. Product, Variant, Ticket, whatever else.
+- Use vouchers once or multiple times
+- Limit access: can define model instances that are allowed or excluded from redeeming a Voucher
+- Multiple limit scheme; exhaust redeems per instance, per user or per product
 ## Support us
 
 [<img src="https://github-ads.s3.eu-central-1.amazonaws.com/laravel-vouchers.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/laravel-vouchers)
