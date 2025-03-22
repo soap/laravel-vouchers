@@ -2,9 +2,9 @@
 
 namespace Soap\Vouchers;
 
+use Soap\Vouchers\Commands\VouchersCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Soap\Vouchers\Commands\VouchersCommand;
 
 class VouchersServiceProvider extends PackageServiceProvider
 {
